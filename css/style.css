@@ -339,18 +339,28 @@ input.form_input {
     margin: 0 auto;
 }
 
-.users-photo img {
+.photo-visible {
+    position: relative;
+}
+
+.some-user-photo {
     width: 50px;
     height: 50px;
 }
 
-.users-photo a {
-    display: block;
+.photo-hover {
+    position: absolute;
+    background: #2ecc71;
+    width: 50px;
+    height: 50px;
+    display: none;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
 }
 
-.users-photo a:hover {
-    background: #2ecc71;
-    opacity: 0.7;
+.photo-visible:hover .photo-hover {
+    display: block;
 }
 
 /* Section Say Hi & Get in Touch */
