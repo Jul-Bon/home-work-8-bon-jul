@@ -91,6 +91,10 @@ h6 {
     padding-top: 82px;
 }
 
+.headline a {
+    display: inline-block;
+}
+
 h1 {
     color: #ffffff;
     font-size: 24px;
